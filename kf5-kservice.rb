@@ -8,13 +8,13 @@ class Kf5Kservice < Formula
   head 'git://anongit.kde.org/kservice.git'
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
+  depends_on "kf5-extra-cmake-modules" => :build
   depends_on "qt5" => "with-d-bus"
-  depends_on "haraldf/kf5/kf5-kcrash"
-  depends_on "haraldf/kf5/kf5-kdoctools"
-  depends_on "haraldf/kf5/kf5-kdbusaddons"
-  depends_on "haraldf/kf5/kf5-kconfig"
-  depends_on "haraldf/kf5/kf5-ki18n"
+  depends_on "kf5-kcrash"
+  depends_on "kf5-kdoctools"
+  depends_on "kf5-kdbusaddons"
+  depends_on "kf5-kconfig"
+  depends_on "kf5-ki18n"
 
   def install
     args = std_cmake_args

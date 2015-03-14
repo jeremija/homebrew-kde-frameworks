@@ -8,10 +8,10 @@ class Kf5Kglobalaccel < Formula
   head 'git://anongit.kde.org/kglobalaccel.git'
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
-  depends_on "haraldf/kf5/kf5-kcoreaddons"
-  depends_on "haraldf/kf5/kf5-kcrash"
-  depends_on "haraldf/kf5/kf5-kdbusaddons"
+  depends_on "kf5-extra-cmake-modules" => :build
+  depends_on "kf5-kcoreaddons"
+  depends_on "kf5-kcrash"
+  depends_on "kf5-kdbusaddons"
   depends_on "qt5" => "with-d-bus"
 
   def install

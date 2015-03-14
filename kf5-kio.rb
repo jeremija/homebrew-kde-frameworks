@@ -8,13 +8,13 @@ class Kf5Kio < Formula
   head 'git://anongit.kde.org/kio.git'
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
+  depends_on "kf5-extra-cmake-modules" => :build
   depends_on "qt5" => "with-d-bus"
-  depends_on "haraldf/kf5/kf5-karchive"
-  depends_on "haraldf/kf5/kf5-kbookmarks"
-  depends_on "haraldf/kf5/kf5-kjobwidgets"
-  depends_on "haraldf/kf5/kf5-kwallet"
-  depends_on "haraldf/kf5/kf5-solid"
+  depends_on "kf5-karchive"
+  depends_on "kf5-kbookmarks"
+  depends_on "kf5-kjobwidgets"
+  depends_on "kf5-kwallet"
+  depends_on "kf5-solid"
 
   def install
     args = std_cmake_args

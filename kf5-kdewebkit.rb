@@ -8,8 +8,8 @@ class Kf5Kdewebkit < Formula
   head 'git://anongit.kde.org/attica.git'
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
-  depends_on "haraldf/kf5/kf5-kparts"
+  depends_on "kf5-extra-cmake-modules" => :build
+  depends_on "kf5-kparts"
   depends_on "qt5" => "with-d-bus"
 
   def install

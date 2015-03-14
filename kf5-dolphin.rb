@@ -5,24 +5,24 @@ class Kf5Dolphin < Formula
   head "git://anongit.kde.org/kde-baseapps.git", :branch => "frameworks"
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
+  depends_on "kf5-extra-cmake-modules" => :build
   depends_on "qt5" => "with-d-bus"
 
-  depends_on "haraldf/kf5/kf5-kactivities"
-  depends_on "haraldf/kf5/kf5-karchive"
-  depends_on "haraldf/kf5/kf5-kbookmarks"
-  depends_on "haraldf/kf5/kf5-kcmutils"
-  depends_on "haraldf/kf5/kf5-kcoreaddons"
-  depends_on "haraldf/kf5/kf5-kconfig"
-  depends_on "haraldf/kf5/kf5-kconfigwidgets"
-  depends_on "haraldf/kf5/kf5-kdbusaddons"
-  depends_on "haraldf/kf5/kf5-kdoctools"
-  depends_on "haraldf/kf5/kf5-kinit"
-  depends_on "haraldf/kf5/kf5-kio"
-  depends_on "haraldf/kf5/kf5-knewstuff"
-  depends_on "haraldf/kf5/kf5-kdelibs4support"
-  depends_on "haraldf/kf5/kf5-kparts"
-  depends_on "haraldf/kf5/kf5-kdesu"
+  depends_on "kf5-kactivities"
+  depends_on "kf5-karchive"
+  depends_on "kf5-kbookmarks"
+  depends_on "kf5-kcmutils"
+  depends_on "kf5-kcoreaddons"
+  depends_on "kf5-kconfig"
+  depends_on "kf5-kconfigwidgets"
+  depends_on "kf5-kdbusaddons"
+  depends_on "kf5-kdoctools"
+  depends_on "kf5-kinit"
+  depends_on "kf5-kio"
+  depends_on "kf5-knewstuff"
+  depends_on "kf5-kdelibs4support"
+  depends_on "kf5-kparts"
+  depends_on "kf5-kdesu"
 
   def patches
     DATA

@@ -8,27 +8,27 @@ class Kf5Konversation < Formula
   head "git://anongit.kde.org/konversation.git", :branch => "master"
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
+  depends_on "kf5-extra-cmake-modules" => :build
   depends_on "qt5" => "with-d-bus"
   depends_on "qca" => :optional # must built with qt5
 
-  depends_on "haraldf/kf5/kf5-karchive"
-  depends_on "haraldf/kf5/kf5-kbookmarks"
-  depends_on "haraldf/kf5/kf5-kconfig"
-  depends_on "haraldf/kf5/kf5-kconfigwidgets"
-  depends_on "haraldf/kf5/kf5-kdoctools"
-  depends_on "haraldf/kf5/kf5-kemoticons"
-  depends_on "haraldf/kf5/kf5-ki18n"
-  depends_on "haraldf/kf5/kf5-kidletime"
-  depends_on "haraldf/kf5/kf5-knotifyconfig"
-  depends_on "haraldf/kf5/kf5-kdelibs4support"
-  depends_on "haraldf/kf5/kf5-kio"
-  depends_on "haraldf/kf5/kf5-kparts"
-  depends_on "haraldf/kf5/kf5-solid"
-  depends_on "haraldf/kf5/kf5-sonnet"
-  depends_on "haraldf/kf5/kf5-kwallet"
-  depends_on "haraldf/kf5/kf5-kwidgetsaddons"
-  depends_on "haraldf/kf5/kf5-kglobalaccel"
+  depends_on "kf5-karchive"
+  depends_on "kf5-kbookmarks"
+  depends_on "kf5-kconfig"
+  depends_on "kf5-kconfigwidgets"
+  depends_on "kf5-kdoctools"
+  depends_on "kf5-kemoticons"
+  depends_on "kf5-ki18n"
+  depends_on "kf5-kidletime"
+  depends_on "kf5-knotifyconfig"
+  depends_on "kf5-kdelibs4support"
+  depends_on "kf5-kio"
+  depends_on "kf5-kparts"
+  depends_on "kf5-solid"
+  depends_on "kf5-sonnet"
+  depends_on "kf5-kwallet"
+  depends_on "kf5-kwidgetsaddons"
+  depends_on "kf5-kglobalaccel"
 
  # def patches
  #   DATA

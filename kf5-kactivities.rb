@@ -8,12 +8,12 @@ class Kf5Kactivities < Formula
   head 'git://anongit.kde.org/kactivities.git'
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
+  depends_on "kf5-extra-cmake-modules" => :build
   depends_on "qt5" => "with-d-bus"
-  depends_on "haraldf/kf5/kf5-kdeclarative"
-  depends_on "haraldf/kf5/kf5-kdbusaddons"
-  depends_on "haraldf/kf5/kf5-ki18n"
-  depends_on "haraldf/kf5/kf5-kcmutils"
+  depends_on "kf5-kdeclarative"
+  depends_on "kf5-kdbusaddons"
+  depends_on "kf5-ki18n"
+  depends_on "kf5-kcmutils"
   depends_on "boost"
 
   def install

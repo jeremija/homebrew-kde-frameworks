@@ -8,14 +8,14 @@ class Kf5Kdelibs4support < Formula
   head 'git://anongit.kde.org/kdelibs4support.git'
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
-  depends_on "haraldf/kf5/kf5-kdoctools" => :build
+  depends_on "kf5-extra-cmake-modules" => :build
+  depends_on "kf5-kdoctools" => :build
   depends_on "qt5" => "with-d-bus"
-  depends_on "haraldf/kf5/kf5-kdesignerplugin"
-  depends_on "haraldf/kf5/kf5-kemoticons"
-  depends_on "haraldf/kf5/kf5-kinit"
-  depends_on "haraldf/kf5/kf5-kitemmodels"
-  depends_on "haraldf/kf5/kf5-kunitconversion"
+  depends_on "kf5-kdesignerplugin"
+  depends_on "kf5-kemoticons"
+  depends_on "kf5-kinit"
+  depends_on "kf5-kitemmodels"
+  depends_on "kf5-kunitconversion"
 
   def install
     args = std_cmake_args

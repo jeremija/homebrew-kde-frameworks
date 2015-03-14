@@ -8,10 +8,10 @@ class Kf5Kunitconversion < Formula
   head 'git://anongit.kde.org/kunitconversion.git'
 
   depends_on "cmake" => :build
-  depends_on "haraldf/kf5/kf5-extra-cmake-modules" => :build
+  depends_on "kf5-extra-cmake-modules" => :build
   depends_on "qt5" => "with-d-bus"
   depends_on "gettext" => :build
-  depends_on "haraldf/kf5/kf5-ki18n"
+  depends_on "kf5-ki18n"
 
   def install
     args = std_cmake_args
