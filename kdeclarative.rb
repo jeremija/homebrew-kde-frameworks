@@ -12,6 +12,7 @@ class Kdeclarative < Formula
   depends_on "qt5" => "with-d-bus"
   depends_on "libepoxy"
   depends_on "kio"
+  depends_on "kpackage"
 
   patch :DATA
 
