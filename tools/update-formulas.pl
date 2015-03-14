@@ -104,7 +104,7 @@ sub updatePackage($) {
         $upstream = $package;
     }
 
-    my $formula = "kf5-$package.rb";
+    my $formula = "$package.rb";
     my $package_upstream_url = "$upstream_url$upstream$upstream_suffix";
 
     if (! -e $formula) {
@@ -112,7 +112,7 @@ sub updatePackage($) {
         return;
     }
 
-    my $cached_file = "$brew_prefix/kf5-$package$upstream_suffix";
+    my $cached_file = "$brew_prefix/$package$upstream_suffix";
 
     if (! -e $cached_file) {
         `curl -L -s -o "$cached_file" "$package_upstream_url"`;
