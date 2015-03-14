@@ -44,6 +44,8 @@ class Konsole < Formula
   depends_on "knotifyconfig"
   depends_on "kparts"
   depends_on "kross"
+  depends_on "kinit"
+  depends_on "kdelibs4support"
 
   def patches
     DATA
