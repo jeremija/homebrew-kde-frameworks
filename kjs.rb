@@ -10,6 +10,7 @@ class Kjs < Formula
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
   depends_on "extra-cmake-modules" => :build
+  depends_on "kdoctools" => :build
   depends_on "qt5" => "with-d-bus"
   depends_on "pcre"
 
